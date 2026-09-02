@@ -1,0 +1,582 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: var(--Font_Color);
+}
+:root{
+     --PrymariBg_Color: #1a11a0;
+     --SecendColor:#ffc21c;
+     --Font_Color:#071c3c;
+     --Font_Color2:#185ec8;
+     --Myriad_Pro:"Maven Pro", sans-serif ;
+     --color_white:#fff;
+}
+
+/* top Bar Part */
+.top_menu {
+     background: var(--PrymariBg_Color);
+     color: #acc8ff;
+     font-family: var(--Myriad_Pro);
+     font-size: 12px;
+     height: 60px;
+     width: 100%;
+}
+.top_menubar a{
+     text-decoration: none;
+     color: #acc8ff;
+     padding-right: 15px;
+     margin-left: 15px;
+}
+.top_menubar a:hover{
+     color: var(--color_white);
+}
+.top_menubar a i{
+     padding-top: 22px;
+     padding-right: 5px;
+}
+.top_icon a i{
+     color: #acc8ff;
+     font-size: 14px;
+     margin-top: 11%;
+     width: 15%;
+}
+.top_icon a i:hover{
+     color: var(--color_white);
+}
+/*  Top Bar End */
+
+/*  Main Menu Part */
+.navbar{
+     background: var(--color_white);
+     margin-top: 10px;
+     position: sticky;
+}
+.navbar-brand{
+     color: var(--Font_Color2);
+     font-family: var(--Myriad_Pro);
+     font-weight: 800;
+     font-size: 15px;
+}
+.navbar-nav {
+     margin-left: 15px;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+.navbar-nav li {
+     font-family: var(--Myriad_Pro);
+     font-weight: 600;
+     font-size: 13px;
+}
+.navbar-nav li a{
+     color: var(--PrymariBg_Color);
+}
+.Rg_requet{
+     background: var(--PrymariBg_Color);
+     color: var(--color_white);
+     border-radius: 60px;
+     border: none;
+     font-size: 14px;
+     width: 17%;
+     height: 40px;
+     text-align: center;
+     font-weight: 500;
+     margin-left: 25px;
+}
+/* Mai Menu End  */
+
+/*  Banner One Part  */
+
+
+.bg-img-1{
+     background-image: url(/assets/img/Home_banner/Banner1_bg.png);
+
+}
+.bg-img-2{
+     background-image: url(/assets/img/Home_banner/Banner2_bg.png);
+}
+
+.carousel-image{
+     height: 600px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center; 
+}
+
+
+
+.carousel-item{
+     position: relative;
+}
+.buttone_banner{
+     position: absolute;
+     margin: 110px 10px 0px 20px;
+     h3{
+          color: var(--Font_Color2);
+          line-height: 1;
+     }
+
+     h1{
+          font-weight: 700;
+          font-size: 4rem;
+          color: var(--PrymariBg_Color);
+          margin-bottom: 10px;
+          line-height: 1;
+     }
+     h2{
+          font-weight: 700;
+          color: var(--PrymariBg_Color);   
+          margin-bottom: 25px;
+          line-height: 1;
+          font-size: 2.5rem;
+     }
+     button{
+          background: var(--PrymariBg_Color);
+          color: var(--color_white);
+          border: none;
+          border-radius: 60px;
+          height: 45px;
+          width: 48%;
+          font-family: var(--Myriad_Pro);
+          font-size: 18px;
+          font-weight: 500;
+     }
+}
+/*  Banner One Part  end  */
+
+/* Service Part  */
+.services{
+     height: 1050px;
+     background: url( /assets/img/Service/Service\ Bg.png);
+     margin-top: 140px;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.card_one {
+     margin-top: -6%;
+     img{
+          margin: 37px 0px 0px 20px;
+          height: 40%;
+          width:  20%;
+     }
+}
+.card_one .cda {
+     height: 120px;
+     width: 19%;
+     background: #fafbfd;
+     border: 1px solid #ceddf3;
+     margin-right: 20px;
+     border-radius: 24px;
+     padding: 4px;
+     h4{
+          padding: 28px 0px 0px 10px ;
+          font-family: var(--Myriad_Pro);
+          font-weight: 600;
+          font-size: 22px;
+     }
+}
+
+.head_line2{
+     margin-top: 55px;
+     color: var(--Font_Color2);
+     font-family: var(--Myriad_Pro);
+     i{
+          padding: 6px 5px 0px 0px ;
+          font-size: 15px;
+     }
+     h4{
+          font-weight: 600;
+          font-size: 20px;
+     }
+}
+.head_line h1{
+          font-family: var(--Myriad_Pro);
+          font-weight: 600;
+}
+/* Service Part Main Tital End  */
+
+/* Service Part Card */
+.servicecard{
+     margin-top: 70px;
+}
+.service_card{
+     background: var(--color_white);
+     margin-right: 1.5%;
+     width: 25%;
+     padding-bottom: 2.5%;
+     border-radius: 20px;
+     img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 273px;
+          width: 300px;
+          margin-top: 15px;
+          border-radius: 10px;
+     }
+     h4{
+          text-align: center;
+          padding-top: 25px;
+          font-family: var(--Myriad_Pro);
+          font-weight: 600;
+          font-size: 20px;
+     }
+     p{
+          padding: 0px 20px;
+          margin-bottom: 30px;
+          text-align: justify;
+          color: #47566d;
+     }
+     button {
+          display: block;
+          margin: 0 auto ;
+          border-radius: 60px;
+          background: var(--PrymariBg_Color);
+          color: var(--color_white);
+          height: 45px;
+          width: 60%;
+          font-weight: 500;
+          align-items: center;
+          border: none;
+     }
+}
+.cta_main{
+     background: var(--PrymariBg_Color);
+     color: var(--color_white);
+     height: 130px;
+     border-radius: 25px;
+     margin: 80px auto;
+     margin-top: 50px;
+     .cata_text{
+          font-family: var(--Myriad_Pro);
+          font-size: 20px;
+          font-weight: 600;
+          padding-left: 45px;
+     }
+     button{
+          background: var(--SecendColor);
+          border: none;
+          border-radius: 60px;
+          height: 30%;
+          width: 20%;
+          font-weight: 700;
+          margin-left: 35px;
+          i{
+               rotate: -85deg;
+               margin-right: 3px;
+          }
+     }
+     .cta_call{
+          padding: 13%;
+          span{
+               color: var(--SecendColor);
+               font-weight: 600;
+               font-family: var(--Myriad_Pro);
+          }
+     }
+}
+.cata_text .cta_call {
+     padding-left: 30px;
+}
+ /* card Manu Part End  */
+
+ /* body1 Part  Start */
+.body1{
+     background-color: #fafbfd;
+     background-repeat: no-repeat;
+     width: 100%;
+     margin-top: 120px;
+     height: 680px;
+     text-align: justify;
+     img{
+          height: 75%;
+          margin: 40px 10px 0px 7%;
+     }
+     .text_part{
+          margin-top: 7.5%;
+          padding-right: 49px;
+          padding-left: 28px;
+          h4{
+          font-family: var(--Myriad_Pro);
+          color: var(--Font_Color2);
+          font-size: 20px;
+          font-weight: 700;
+          }
+          h2{
+               font-family: var(--Myriad_Pro);
+               font-weight: 700;
+               font-size: 33px;
+          }
+          a{
+               text-decoration: none;
+          }
+          .body_btn a{
+               text-align: center;
+               padding-top: 8px;
+               display: inline-block;
+               text-decoration: none;
+               height: 43px;
+               width: 35%;
+               border-radius: 60px;
+               border: none;
+               color: var(--color_white);
+               background: var(--PrymariBg_Color);
+               margin-right: 10px;
+               font-family: var(--Myriad_Pro);
+               font-weight: 500;
+               margin-top: 20px;
+          }
+     }
+}
+/*  Body 1 Part End  */
+.Doctor_part{
+     background: url(/assets/img/Doctors/Doctor\ Bg.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 96% 90%;
+     margin-top: 3%;
+     .doctor_two{
+          img{
+               margin-top: 55px;
+               height: 85%;
+               width: 30%;
+               margin-left: 15%;
+          }
+     }
+     .text_part2{
+          margin: 108px 0px 0px 108px;
+          text-align: justify;
+          color: #111111;
+          h4{
+               color: var(--Font_Color2);
+               font-family: var(--Myriad_Pro);
+               font-size: 20px;
+               font-weight: 600;
+          }
+     }
+     h2{
+          font-family: var(--Myriad_Pro);
+          font-weight: 700;
+          font-size: 25px;
+          margin-bottom: 30px;
+     }
+     a{
+       text-decoration: none;
+     }
+     .body_btn a{
+          text-align: center;
+          padding-top: 8px;
+          display: inline-block;
+          text-decoration: none;
+          height: 43px;
+          width: 30%;
+          border-radius: 60px;
+          border: none;
+          color: var(--color_white);
+          background: var(--PrymariBg_Color);
+          margin-right: 10px;
+          font-family: var(--Myriad_Pro);
+          font-weight: 500;
+          margin-top: 20px;
+     }
+}
+/* Experience  Part */
+.Experience{
+     background: url(/assets/img/Experience\ the\ Difference\ Bg.png);
+     height: 560px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100%;
+     .ecperiencer_one{
+          margin-top: 5%;
+          background: #f5f7f8;
+          /* background: #1e3374; */
+          border-radius: 40px;
+          padding: 30px 20px 30px 40px;
+          text-align: justify;
+          h4{
+               font-family: var(--Myriad_Pro);
+               font-weight: 600;
+               color: var(--Font_Color2);
+          }
+          h2{
+               font-family: var(--Myriad_Pro);
+               font-weight: 700;
+               font-size: 35px;
+               margin-bottom: 20px;
+          }
+          a{
+               text-align: center;
+               padding-top: 8px;
+               display: inline-block;
+               text-decoration: none;
+               height: 43px;
+               width: 30%;
+               border-radius: 60px;
+               border: none;
+               color: var(--color_white);
+               background: var(--PrymariBg_Color);
+               font-family: var(--Myriad_Pro);
+               font-weight: 500;
+          }
+     }
+}
+.ecperiencer_one{
+     display: block;
+     margin-left: auto;     
+}
+/*  Insurance Part */
+.head_line p {
+     font-weight: 600;
+     margin-bottom: 50px;
+     font-size: 15px;
+}
+.insurance_partner img{
+     height: 80px;
+     width: 12.3%;
+     border: 2px solid #eff0f1;
+     border-radius: 15px;
+     margin-right: 10px;
+     padding: 20px;
+}
+
+.card_two .cda {
+     margin-left: 40px;
+     img{
+          margin-top: 10px;
+          height: 60px;
+          width: 55px;
+     }
+
+     h2{
+          padding-left: 15px ;
+          font-family: var(--Myriad_Pro);
+          font-weight: 600;
+          font-size: 40px;
+     }
+     p{
+          padding-left: 15px;
+          font-family: var(--Myriad_Pro);
+          font-weight: 500;
+          font-size: 15px;
+          padding-bottom: 30px;
+     }
+}
+/*  testimonial Part  */
+
+.testimonial_part {
+     background: url(/assets/img/Test\ Bg.png) ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100% 100%;
+     margin-top: 6%;
+}
+
+.card{
+      background: var(--PrymariBg_Color);
+      color: var(--color_white);
+      margin-top: 40px;
+      margin-bottom: 60px;
+      border-radius: 20px;
+      text-align: justify;
+      padding: 20px;
+      width: 88%;
+      margin-left: 40px;
+      h4{
+          font-family: var(--Myriad_Pro);
+          font-size: 23px;
+      }
+      h6{
+          font-size: 15px;
+      }
+}
+/*  testimonial Part End */
+
+/*  Footer Part */
+.footer_part{
+     margin-top: 5%;
+}
+/*  Footer One Part */
+.map_part{
+     margin-bottom: 4%;
+}
+.map_text{
+     h4{
+          font-family: var(--Myriad_Pro);
+          font-weight: 600;
+          color: var(--Font_Color2);
+          font-size: 26px;
+          padding-left: 26px;
+     }
+     p{   
+          margin-top: 20px;
+          padding-left: 26px;
+          padding-right: 14%;
+     }
+     address{
+          padding-left: 26px;
+     }
+     a{
+          text-decoration: none;
+          color: #1d52bc;
+          font-weight: 700;    
+     }
+     .socal_icon2 a i{
+          color: #1d52bc;
+          font-size: 18px;
+          margin-left: 12px;
+          padding-left: 13px;
+     }
+}
+.map_lm {
+
+     h4{
+          font-weight: 700;
+     }
+     iframe{ 
+          margin-top: 50px;
+     }   
+}
+.quick_link{
+     h4{
+          font-weight: 700;
+     }
+     ul{
+          margin-top: 50px;  
+          list-style: url(/assets/img/icon/right-arrow.png);
+     }
+     li{
+          margin-bottom: 10px;
+     }
+     a{
+          text-decoration: none;
+          color: #111111;
+          cursor: pointer;
+     }
+}
+.footer_phone p a:last-child {
+     text-decoration: none;
+     margin-left: 52px;
+}
+/*  Footer Part Two  */
+.Main_footer{
+     height: 195px;
+     background: var(--PrymariBg_Color);
+     color: var(--color_white);
+     align-items: center;
+     .footer_copyright{
+          margin-top: 64px;
+          a{
+          text-decoration: none;
+          color: var(--color_white);
+          cursor: pointer;
+          }
+     }
+}
+
+
+/*  Footer end  */
